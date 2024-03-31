@@ -1,0 +1,23 @@
+# ninja log v5
+1	503	733570128	CMakeFiles/native-lib.dir/native-lib.cpp.o	daa7b9cb227f9305
+504	639	733570128	D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/build/intermediates/cxx/Debug/334s5j21/obj/arm64-v8a/libnative-lib.so	3fe79ad9663b110a
+2	124	733570152	D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/build/intermediates/cxx/Debug/334s5j21/obj/arm64-v8a/libnative-lib.so	3fe79ad9663b110a
+3	136	733570155	D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/build/intermediates/cxx/Debug/334s5j21/obj/arm64-v8a/libnative-lib.so	3fe79ad9663b110a
+3	115	733570162	D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/build/intermediates/cxx/Debug/334s5j21/obj/arm64-v8a/libnative-lib.so	3fe79ad9663b110a
+4	126	733570175	D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/build/intermediates/cxx/Debug/334s5j21/obj/arm64-v8a/libnative-lib.so	3fe79ad9663b110a
+2	111	733570189	D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/build/intermediates/cxx/Debug/334s5j21/obj/arm64-v8a/libnative-lib.so	3fe79ad9663b110a
+3	232	733570226	D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/build/intermediates/cxx/Debug/334s5j21/obj/arm64-v8a/libnative-lib.so	3fe79ad9663b110a
+2	161	733570399	D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/build/intermediates/cxx/Debug/334s5j21/obj/arm64-v8a/libnative-lib.so	3fe79ad9663b110a
+2	141	733571004	D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/build/intermediates/cxx/Debug/334s5j21/obj/arm64-v8a/libnative-lib.so	3fe79ad9663b110a
+4	125	733571112	D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/build/intermediates/cxx/Debug/334s5j21/obj/arm64-v8a/libnative-lib.so	3fe79ad9663b110a
+2	121	733571145	D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/build/intermediates/cxx/Debug/334s5j21/obj/arm64-v8a/libnative-lib.so	3fe79ad9663b110a
+3	182	733571606	D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/build/intermediates/cxx/Debug/334s5j21/obj/arm64-v8a/libnative-lib.so	3fe79ad9663b110a
+2	128	733571654	D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/build/intermediates/cxx/Debug/334s5j21/obj/arm64-v8a/libnative-lib.so	3fe79ad9663b110a
+3	150	733573365	D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/build/intermediates/cxx/Debug/334s5j21/obj/arm64-v8a/libnative-lib.so	3fe79ad9663b110a
+3	132	733574540	D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/build/intermediates/cxx/Debug/334s5j21/obj/arm64-v8a/libnative-lib.so	3fe79ad9663b110a
+3	399	733611626	D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/build/intermediates/cxx/Debug/334s5j21/obj/arm64-v8a/libnative-lib.so	3fe79ad9663b110a
+4	186	733611724	D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/build/intermediates/cxx/Debug/334s5j21/obj/arm64-v8a/libnative-lib.so	3fe79ad9663b110a
+2	177	733612339	D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/build/intermediates/cxx/Debug/334s5j21/obj/arm64-v8a/libnative-lib.so	3fe79ad9663b110a
+3	187	733612427	D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/build/intermediates/cxx/Debug/334s5j21/obj/arm64-v8a/libnative-lib.so	3fe79ad9663b110a
+3	128	733612481	D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/build/intermediates/cxx/Debug/334s5j21/obj/arm64-v8a/libnative-lib.so	3fe79ad9663b110a
+2	145	733612527	D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/build/intermediates/cxx/Debug/334s5j21/obj/arm64-v8a/libnative-lib.so	3fe79ad9663b110a

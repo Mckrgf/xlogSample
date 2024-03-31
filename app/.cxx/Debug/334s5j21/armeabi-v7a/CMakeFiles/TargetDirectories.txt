@@ -1,0 +1,3 @@
+D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/.cxx/Debug/334s5j21/armeabi-v7a/CMakeFiles/native-lib.dir
+D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/.cxx/Debug/334s5j21/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/personalCode/mars-master/mars-master/samples/android/xlogSample/app/.cxx/Debug/334s5j21/armeabi-v7a/CMakeFiles/rebuild_cache.dir

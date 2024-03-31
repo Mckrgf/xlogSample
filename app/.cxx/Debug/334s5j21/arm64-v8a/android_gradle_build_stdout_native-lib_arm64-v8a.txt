@@ -1,0 +1,2 @@
+ninja: Entering directory `D:\personalCode\mars-master\mars-master\samples\android\xlogSample\app\.cxx\Debug\334s5j21\arm64-v8a'
+[1/1] Linking CXX shared library D:\personalCode\mars-master\mars-master\samples\android\xlogSample\app\build\intermediates\cxx\Debug\334s5j21\obj\arm64-v8a\libnative-lib.so
