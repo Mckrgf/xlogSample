@@ -31,11 +31,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 //        String logPath = getFilesDir().getPath() + "/logsample/xlog";
-        String logPath = Environment.getExternalStorageDirectory().getPath() + "/logsample/xlog";
+        String logPath = Environment.getExternalStorageDirectory().getPath() + "/aaaa/xlog";
+        String cachePath = Environment.getExternalStorageDirectory().getPath() + "/aaaaCache/xlog";
+
+
+
+
+        Xlog.XLogConfig xLogConfig = new Xlog.XLogConfig();
         Xlog xlog = new Xlog();
+
+        xlog.setMaxFileSize(0, 1024L *1024*2);
+
         Log.setLogImp(xlog);
         Log.setConsoleLogOpen(true);
-        Log.appenderOpen(Xlog.LEVEL_DEBUG, Xlog.AppednerModeAsync, "", logPath, "LOGSAMPLE", 0);
+        Log.appenderOpen(Xlog.LEVEL_DEBUG, Xlog.AppednerModeAsync, cachePath, logPath, "LOGSAMPLE", 0);
         //1w次 110k左右
         //10w次 1200k左右
         //10.w次 10700k左右
