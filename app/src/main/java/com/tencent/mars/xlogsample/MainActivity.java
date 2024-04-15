@@ -31,20 +31,23 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 //        String logPath = getFilesDir().getPath() + "/logsample/xlog";
-        String logPath = Environment.getExternalStorageDirectory().getPath() + "/aaaa/xlog";
-        String cachePath = Environment.getExternalStorageDirectory().getPath() + "/aaaaCache/xlog";
+        String logPath = Environment.getExternalStorageDirectory().getPath() + "/aaaaa/xlog";
+        String cachePath = Environment.getExternalStorageDirectory().getPath() + "/aaaaaCache/xlog";
 
 
 
 
-        Xlog.XLogConfig xLogConfig = new Xlog.XLogConfig();
+//        Xlog.XLogConfig xLogConfig = new Xlog.XLogConfig();
         Xlog xlog = new Xlog();
 
-        xlog.setMaxFileSize(0, 1024L *1024*2);
+//        Xlog.open(true,Xlog.LEVEL_DEBUG,Xlog.AppednerModeAsync,cachePath,logPath,"ty","");
+
 
         Log.setLogImp(xlog);
         Log.setConsoleLogOpen(true);
         Log.appenderOpen(Xlog.LEVEL_DEBUG, Xlog.AppednerModeAsync, cachePath, logPath, "LOGSAMPLE", 0);
+        xlog.setMaxFileSize(0, 1024L *1024*2);
+        xlog.setMaxAliveTime(0,3600*24*1);
         //1w次 110k左右
         //10w次 1200k左右
         //10.w次 10700k左右
@@ -53,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
             public void run() {
                 for (int i = 0; i < 999999; i++) {
                     Log.d("zxcv","我要打印了：" + i);
+//                    new Xlog().logD(0,"zxcv","tt","",0,0,System.currentTimeMillis(),0,"aaaaaa");
                 }
                 Log.appenderFlush();
             }
@@ -65,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d("zxcv","我打印完了也flush完了");
 
         TextView tv = (TextView) findViewById(R.id.sample_text);
-        tv.setText(stringFromJNI());
+        tv.setText("stringFromJNI()");
     }
 
     @Override
@@ -78,12 +82,12 @@ public class MainActivity extends AppCompatActivity {
      * A native method that is implemented by the 'native-lib' native library,
      * which is packaged with this application.
      */
-    public native String stringFromJNI();
+//    public native String stringFromJNI();
 
     // Used to load the 'native-lib' library on application startup.
     static {
         System.loadLibrary("c++_shared");
         System.loadLibrary("marsxlog");
-        System.loadLibrary("native-lib");
+//        System.loadLibrary("native-lib");
     }
 }
